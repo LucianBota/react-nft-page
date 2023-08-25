@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Getting Started with NFT PAGE App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
+
+## App Structure
+
+### The "App" component:
+
+It serves as the main container of the application.
+It renders two child components: "SearchBar" and "NFTCardList".
+It manages a piece of state called "searchValue" which is modified by the "SearchBar" and is used to filter the "NFTCardList".
+
+### The "components" folder contains the following:
+
+The "SearchBar" component
+The "NftCard" component
+The "NFTCardList" component which is a responsive virtualized grid that displays multiple NFT cards.
+
+### The "App.module.scss" file:
+
+Contains all the styling of the application.
+
+### The "api" folder contains the following:
+
+The "nftDataService" file acts as a bridge between this application React components and the external data sources.
 
 ## Available Scripts
 
@@ -42,5 +64,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
