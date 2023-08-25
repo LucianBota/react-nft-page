@@ -14,7 +14,7 @@ It manages a piece of state called "searchValue" which is modified by the "Searc
 
 The "SearchBar" component
 The "NftCard" component
-The "NFTCardList" component which is a responsive virtualized grid that displays multiple NFT cards.
+The "NFTCardList" component is a responsive virtualized grid that displays multiple NFT cards, at first 20 then it loads more if you scroll to the bottom of the list.
 
 ### The "App.module.scss" file:
 
