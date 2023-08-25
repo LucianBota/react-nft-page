@@ -28,6 +28,10 @@ The "nftDataService" file acts as a bridge between this application React compon
 
 In the project directory, you can run:
 
+### `npm install`
+
+Please run this before trying to run the app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
